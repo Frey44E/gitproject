@@ -15,6 +15,7 @@
 </head>
 <body>
     <h1>Spēļu saraksts</h1>
+    <p>Jauns teksts</p>
 
 
     <form method="POST">
