@@ -13,6 +13,9 @@ body {
     background: #2a2a40;
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
@@ -23,7 +26,7 @@ h1 {
 
 .game-form {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 10px;
     margin-bottom: 20px;
 }
@@ -33,6 +36,7 @@ input {
     padding: 10px;
     border: none;
     border-radius: 8px;
+    text-align: center;
 }
 
 button {
@@ -79,4 +83,10 @@ tr:nth-child(even) {
 
 .info {
     color: #ffa500;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

@@ -5,13 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Spēļu saraksts</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 30px; }
-        form { margin-bottom: 20px; }
-        input { padding: 5px; margin: 5px; }
-        table { border-collapse: collapse; width: 50%; }
-        th, td { border: 1px solid black; padding: 8px; text-align: left; }
-    </style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Spēļu saraksts</h1>
