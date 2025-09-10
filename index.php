@@ -16,7 +16,7 @@
 <body>
     <h1>Spēļu saraksts</h1>
 
-    <!-- Forma jaunas spēles pievienošanai -->
+
     <form method="POST">
         <input type="text" name="name" placeholder="Spēles nosaukums" required>
         <input type="text" name="author" placeholder="Autors" required>
@@ -37,7 +37,7 @@
         }
     }
 
-    // Nolasa un attēlo visus ierakstus
+
     $result = $conn->query("SELECT * FROM games");
 
     if ($result->num_rows > 0) {
